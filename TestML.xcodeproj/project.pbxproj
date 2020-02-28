@@ -16,6 +16,7 @@
 		9F18F0C72409459F004451C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F18F0C52409459F004451C1 /* LaunchScreen.storyboard */; };
 		9F18F0D22409459F004451C1 /* TestMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18F0D12409459F004451C1 /* TestMLTests.swift */; };
 		9F18F0DD2409459F004451C1 /* TestMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18F0DC2409459F004451C1 /* TestMLUITests.swift */; };
+		9F18F0EE24094B90004451C1 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9F18F0F024094B90004451C1 /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9F18F0D82409459F004451C1 /* TestMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F18F0DC2409459F004451C1 /* TestMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMLUITests.swift; sourceTree = "<group>"; };
 		9F18F0DE2409459F004451C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F18F0EF24094B90004451C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Base; path = Base.lproj/ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		9F18F0B62409459D004451C1 /* TestML */ = {
 			isa = PBXGroup;
 			children = (
+				9F18F0F024094B90004451C1 /* ImageClassifier.mlmodel */,
 				9F18F0B72409459D004451C1 /* AppDelegate.swift */,
 				9F18F0B92409459D004451C1 /* SceneDelegate.swift */,
 				9F18F0BB2409459D004451C1 /* ViewController.swift */,
@@ -266,6 +269,7 @@
 				9F18F0BC2409459D004451C1 /* ViewController.swift in Sources */,
 				9F18F0B82409459D004451C1 /* AppDelegate.swift in Sources */,
 				9F18F0BA2409459D004451C1 /* SceneDelegate.swift in Sources */,
+				9F18F0EE24094B90004451C1 /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +319,15 @@
 				9F18F0C62409459F004451C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9F18F0F024094B90004451C1 /* ImageClassifier.mlmodel */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F18F0EF24094B90004451C1 /* Base */,
+			);
+			name = ImageClassifier.mlmodel;
+			path = ../../../Documents;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
